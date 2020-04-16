@@ -284,6 +284,14 @@
   hintUrl: 'https://pwning.owasp-juice.shop/part2/sensitive-data-exposure.html#steal-someone-elses-personal-data-without-using-injection'
   key: dataExportChallenge
 -
+  name: 'Geo Tracking'
+  category: 'Sensitive Data Exposure'
+  description: 'Guess the security question of one of the users by the uploaded picture on the photo wall'
+  difficulty: 4
+  hint: 'Sometimes there is data in an image which is not visible'
+  hintUrl: ''
+  key: geoTrackingChallenge
+-
   name: 'HTTP-Header XSS'
   category: 'XSS'
   description: 'Perform a <i>persisted</i> XSS attack with <code>&lt;iframe src="javascript:alert(`xss`)"&gt;</code> through an HTTP header.'
