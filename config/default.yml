@@ -315,6 +315,15 @@ memories:
     image: 'my-rare-collectors-item!-[̲̅$̲̅(̲̅-͡°-͜ʖ-͡°̲̅)̲̅$̲̅]-1572603645543.jpg'
     caption: 'My rare collectors item! [̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅]'
     user: bjoernGoogle
+  -
+    image: 'workplace.jpg' 
+    caption: 'My old workplace...' 
+    user: GeoStalking1
+  -
+    image: 'qbit_groningen.jpg' # TODO: Replace temporary image
+    caption: 'My old workplace...' # TODO: Replace temporary caption
+    user: GeoStalking1 # TODO: Set user to the second geostalking account once it exists
+  
 ctf:
   showFlagsInNotifications: false
   showCountryDetailsInNotifications: none # Options: none  name  flag  both
