@@ -63,7 +63,7 @@ module.exports = function login () {
     utils.solveIf(challenges.loginAmyChallenge, () => { return req.body.email === 'amy@' + config.get('application.domain') && req.body.password === 'K1f.....................' })
     utils.solveIf(challenges.dlpPasswordSprayingChallenge, () => { return req.body.email === 'J12934@' + config.get('application.domain') && req.body.password === '0Y8rMnww$*9VFYE§59-!Fg1L6t&6lB' })
     utils.solveIf(challenges.oauthUserPasswordChallenge, () => { return req.body.email === 'bjoern.kimminich@gmail.com' && req.body.password === 'bW9jLmxpYW1nQGhjaW5pbW1pay5ucmVvamI=' })
-    utils.solveIf(challenges.geoLocationChallenge, () => { return req.body.email === 'ournewuser@mail.com' && req.body.password === 'test' })
+    utils.solveIf(challenges.geoStalkingEasyChallenge, () => { return req.body.email === 'hva' && req.body.password === 'y&x5Z#f6W532ZUf$q3DsdLw3$idF5#Ae2HkwZVyYmxxUsv&qiW6G9$nDb7&oCUaDzFU' })
   }
 
   function verifyPostLoginChallenges (user) {
