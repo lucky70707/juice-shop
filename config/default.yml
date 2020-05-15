@@ -316,12 +316,12 @@ memories:
     caption: 'My rare collectors item! [̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅]'
     user: bjoernGoogle
   -
-    image: 'workplace.jpg' 
-    caption: 'My old workplace...' 
+    image: 'favorite-hiking-place.png' 
+    caption: 'I love going hiking here...'
     user: GeoStalking1
   -
-    image: 'qbit_groningen.jpg' # TODO: Replace temporary image
-    caption: 'My old workplace...' # TODO: Replace temporary caption
+    image: 'qbit_groningen.jpg'
+    caption: 'My old workplace...'
     user: GeoStalking1 # TODO: Set user to the second geostalking account once it exists
   
 ctf:
