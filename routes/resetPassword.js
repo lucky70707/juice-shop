@@ -56,4 +56,7 @@ function verifySecurityAnswerChallenges (user, answer) {
   utils.solveIf(challenges.resetPasswordMortyChallenge, () => { return user.id === users.morty.id && answer === '5N0wb41L' })
   utils.solveIf(challenges.resetPasswordBjoernOwaspChallenge, () => { return user.id === users.bjoernOwasp.id && answer === 'Zaya' })
   utils.solveIf(challenges.resetPasswordUvoginChallenge, () => { return user.id === users.uvogin.id && answer === 'Silence of the Lambs' })
+  // TODO: Change answer to the actual answer when the actual answer has been added.
+  utils.solveIf(challenges.geoStalkingEasyChallenge, () => { return user.id === users.GeoStalking1.id && answer === '123' })
+  // TODO: solveIf for second geo-stalking challenge when the associated account has been added.
 }
