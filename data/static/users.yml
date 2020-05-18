@@ -237,4 +237,13 @@
   role: 'customer'
   securityQuestion:
     id: 14
-    answer: '123'
+    answer: 'Daniel Boone Forest'
+-
+  email: geo2@gmail.com
+  customDomain: true
+  password: 'scrimmage-magnifier-karate-scheme-doorstep-open-refurnish-smother-tarnish-handprint-clothes-tartar-gutter-strangely-skimmed-plural-unzip-bronze-confined-monsoon'
+  key: GeoStalking2
+  role: 'customer'
+  securityQuestion:
+    id: 10
+    answer: 'Qbit'
