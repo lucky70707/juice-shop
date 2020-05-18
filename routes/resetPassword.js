@@ -56,8 +56,6 @@ function verifySecurityAnswerChallenges (user, answer) {
   utils.solveIf(challenges.resetPasswordMortyChallenge, () => { return user.id === users.morty.id && answer === '5N0wb41L' })
   utils.solveIf(challenges.resetPasswordBjoernOwaspChallenge, () => { return user.id === users.bjoernOwasp.id && answer === 'Zaya' })
   utils.solveIf(challenges.resetPasswordUvoginChallenge, () => { return user.id === users.uvogin.id && answer === 'Silence of the Lambs' })
-
   utils.solveIf(challenges.geoStalkingEasyChallenge, () => { return user.id === users.GeoStalking1.id && answer === 'Daniel Boone National Forest' })
   utils.solveIf(challenges.geoStalkingHardChallenge, () => { return user.id === users.Geostalking2.id && answer === 'Qbit'})
-
 }
