@@ -320,7 +320,7 @@ memories:
     caption: 'I love going hiking here...'
     user: GeoStalking1
   -
-    image: 'qbit_groningen.jpg'
+    image: 'IMG_1047-20170324.jpg'
     caption: 'My old workplace...'
     user: GeoStalking1 # TODO: Set user to the second geostalking account once it exists
   
