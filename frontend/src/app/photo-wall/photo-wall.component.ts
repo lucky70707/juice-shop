@@ -93,12 +93,12 @@ export class PhotoWallComponent implements OnInit {
   }
 
   isGeostalkingImage (image: IImage) {
-    return (image.caption === 'I love going hiking here...' || image.caption === 'My old workplace...');
+    return (image.caption === 'I love going hiking here...' || image.caption === 'My old workplace...')
   }
 
   getUserEmailByGeostalkingImage (image: IImage) {
     return (image.caption === 'I love going hiking here...' ? 'geo1@gmail.com'
       : image.caption === 'My old workplace...' ? 'geo2@gmail.com'
-      : '');
+      : '')
   }
 }
