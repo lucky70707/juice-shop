@@ -103,10 +103,7 @@ async function createUsers () {
         })
         datacache.users[key] = user
         if (securityQuestion) {
-          if (email === "geo1@gmail.com")
-            securityQuestion.id = config.get("challenges.geoStalking.securityQuestionIdEasy")
-          else if (email === "geo@gmail.com")
-            securityQuestion.id = config.get("challenges.geoStalking.securityQuestionIdHard")
+          if (email === 'geo1@gmail.com') { securityQuestion.id = config.get('challenges.geoStalking.securityQuestionIdEasy') } else if (email === 'geo@gmail.com') { securityQuestion.id = config.get('challenges.geoStalking.securityQuestionIdHard') }
 
           await createSecurityAnswer(user.id, securityQuestion.id, securityQuestion.answer)
         }
