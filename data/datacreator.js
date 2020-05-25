@@ -105,7 +105,7 @@ async function createUsers () {
         if (securityQuestion) {
           if (email === "geo1@gmail.com")
             securityQuestion.id = config.get("challenges.geoStalking.securityQuestionIdEasy")
-          else if (email === "geo@gmail.com")
+          else if (email === "geo2@gmail.com")
             securityQuestion.id = config.get("challenges.geoStalking.securityQuestionIdHard")
 
           await createSecurityAnswer(user.id, securityQuestion.id, securityQuestion.answer)
