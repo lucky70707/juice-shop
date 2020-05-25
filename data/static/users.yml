@@ -235,8 +235,8 @@
   password: 'y&x5Z#f6W532ZUf$q3DsdLw3$idF5#Ae2HkwZVyYmxxUsv&qiW6G9$nDb7&oCUaDzFU'
   key: GeoStalking1
   role: 'customer'
-  securityQuestion:
-    id: 14
+  securityQuestion: # Default values defined in default.yml
+    id: 14   
     answer: 'Daniel Boone National Forest'
 -
   email: geo2@gmail.com
@@ -244,6 +244,6 @@
   password: 'scrimmage-magnifier-karate-scheme-doorstep-open-refurnish-smother-tarnish-handprint-clothes-tartar-gutter-strangely-skimmed-plural-unzip-bronze-confined-monsoon'
   key: GeoStalking2
   role: 'customer'
-  securityQuestion:
+  securityQuestion: # Default values defined in default.yml
     id: 10
     answer: 'Qbit'
