@@ -327,7 +327,7 @@ memories:
   -
     image: 'qbit_groningen.jpg'
     caption: 'My old workplace...'
-    user: GeoStalking1 # TODO: Set user to the second geostalking account once it exists
+    user: GeoStalking2
   
 ctf:
   showFlagsInNotifications: false
