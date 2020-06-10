@@ -22,7 +22,7 @@ const downloadImage = src => {
 
 const attemptToGetCoordinatesFromMetapicz = imgSrc => {
     return browser.executeAsyncScript(imgSrc => {
-        const callback = arguments[arguments.length - 1]
+        const callback = arguments[arguments.length - 1] // eslint-disable-line
 
         const fail = () => callback(undefined)
         
@@ -32,13 +32,13 @@ const attemptToGetCoordinatesFromMetapicz = imgSrc => {
                     const request = new XMLHttpRequest();
                     request.open("GET", url);
                     request.responseType = "blob";
-                    request.onerror = () => { reject("Network error.") };
+                    request.onerror = () => { reject(new Error("Error while getting image blob: " + request.statusText)) };
                     request.onload = function() {
                         if (request.status === 200) {
                             const contentType = request.getResponseHeader('Content-Type')
                             resolve({ contentType, blob: request.response })
                         } else {
-                            reject("Error while getting image blob: " + request.statusText)
+                            reject(new Error("Error while getting image blob: " + request.statusText))
                         }
                     };
                     request.send();
