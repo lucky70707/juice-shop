@@ -246,4 +246,4 @@
   role: 'customer'
   securityQuestion: # Default values defined in default.yml
     id: 10
-    answer: 'Qbit'
+    answer: 'ITsec'
