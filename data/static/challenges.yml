@@ -841,4 +841,3 @@
   hint: 'Take a look at the details of the image to determine the location of where it was taken.'
   hintUrl: 'https://pwning.owasp-juice.shop/part2/sensitive-data-exposure.html#determine-the-answer-to-someones-security-question-by-looking-at-images-on-the-photo-wall'
   key: geoStalkingHardChallenge  
-
