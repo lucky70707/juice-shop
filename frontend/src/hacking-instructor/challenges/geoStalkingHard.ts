@@ -12,7 +12,7 @@ export const GeoStalkingHardInstruction: ChallengeInstruction = {
         "To start this challenge, you'll have to log out first.",
       fixture: '#navbarAccount',
       unskippable: true,
-      async resolved() {
+      async resolved () {
         while (true) {
           if (localStorage.getItem('token') === null) {
             break
@@ -31,7 +31,7 @@ export const GeoStalkingHardInstruction: ChallengeInstruction = {
       text: 'First, navigate to the photo wall.',
       fixture: 'app-welcome',
       unskippable: true,
-      resolved: waitForAngularRouteToBeVisited('photo-wall')//todo add route
+      resolved: waitForAngularRouteToBeVisited('photo-wall')// todo add route
     },
     {
       text: 'Now take a look at the picture uploaded by geo2@gmail.com and notice the comment',

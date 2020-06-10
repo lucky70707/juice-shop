@@ -12,7 +12,7 @@ export const GeoStalkingEasyInstruction: ChallengeInstruction = {
         "To start this challenge, you'll have to log out first.",
       fixture: '#navbarAccount',
       unskippable: true,
-      async resolved() {
+      async resolved () {
         while (true) {
           if (localStorage.getItem('token') === null) {
             break
