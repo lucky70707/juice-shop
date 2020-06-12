@@ -84,3 +84,5 @@ text:'🎉 Congratulations! You can now log into this account with the new passw
 fixture:'app-navbar',
 resolved: waitInMs(20000)
 }
+]
+}
